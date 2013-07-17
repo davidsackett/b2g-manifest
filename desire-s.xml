@@ -6,7 +6,7 @@
   <!--<remote name="b2g"
           fetch="git://github.com/mozilla-b2g/" />-->
   <remote name="b2g"
-          fetch="git@github.com:davidsackett/B2G.git" />
+          fetch="git://github.com/davidsackett/B2G.git" />
   <remote  name="linaro"
            fetch="http://android.git.linaro.org/git-ro/" />
   <remote name="mozilla"
@@ -102,7 +102,7 @@
   <project path="system/vold" name="platform/system/vold" />
 
   <!-- Galaxy S2 things -->
-  <!-- <project path="device/htc/desires" name="android-device-desires" remote="b2g" revision="master" /> -->
+  <project path="device/htc/desire-s" name="android-device-desire-s" remote="b2g" revision="master" />
   <!-- <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" /> -->
   <!-- <project path="external/skia" name="skia-b2g-sgs2" remote="b2g" revision="master" /> -->
 
